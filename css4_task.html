@@ -18,9 +18,9 @@
       <div class="header-links">
         <nav>
           <ul>
-            <li><a href="">PORTFOLIO</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">CONTANCT</a></li>
+            <li><a href="#pro">PORTFOLIO</a></li>
+            <li><a href="#abt">ABOUT</a></li>
+            <li><a href="#cntc">CONTANCT</a></li>
           </ul>
         </nav>
       </div>
@@ -42,30 +42,44 @@
         </div>
       </section>
       <section id="blocks">
-        <div class="portfolio">
-          <h2>PORTFOLIO</h2>
+        <div id="pro" class="portfolio">
+          <h2 >PORTFOLIO</h2>
           <div class="star2">
             <i class="fa-solid fa-star"></i>
           </div>
         </div>
         <div class="cards">
           <div class="images">
-            <div class="forhover">
-                <i class="fa-solid fa-star"></i>
+            <div class="fh">
+              <img class="sekil1" src="cabin.png" alt="" />
+              <div class="forhover">
+                <i class="fa-solid fa-plus"></i>
+              </div>
             </div>
-            <div><img class="sekil1" src="cabin.png" alt="" /></div>
-            <div><img src="cake.png" alt="" /></div>
-            <div><img src="circus.png" alt="" /></div>
+            <div class="fh"><img src="cake.png" alt="" />
+              <div class="forhover">
+                <i class="fa-solid fa-plus"></i>
+              </div></div>
+            <div class="fh"><img src="circus.png" alt="" />
+              <div class="forhover">
+                <i class="fa-solid fa-plus"></i>
+              </div></div>
           </div>
           <div class="images2">
-            <div><img src="game.png" alt="" /></div>
-            <div><img src="safe.png" alt="" /></div>
-            <div><img src="submarine.png" alt="" /></div>
+            <div class="fh"><img src="game.png" alt="" />              <div class="forhover">
+              <i class="fa-solid fa-plus"></i>
+            </div></div>
+            <div class="fh"><img src="safe.png" alt="" />              <div class="forhover">
+              <i class="fa-solid fa-plus"></i>
+            </div></div>
+            <div class="fh"><img src="submarine.png" alt="" />              <div class="forhover">
+              <i class="fa-solid fa-plus"></i>
+            </div></div>
           </div>
         </div>
       </section>
       <section>
-        <div class="last">
+        <div id="abt" class="last">
           <h2>ABOUT</h2>
           <div class="star3">
             <i class="fa-solid fa-star"></i>
@@ -85,42 +99,89 @@
             </div>
           </div>
           <div class="button">
-              <a href="#"
-                ><i class="fa-solid fa-download"></i
-                ><span>Free download</span></a>
-            
+            <a href="#"
+              ><i class="fa-solid fa-download"></i><span>Free download</span></a
+            >
           </div>
         </div>
       </section>
       <section>
-        <div class="portfolio">
-            <h2>CONTACT ME</h2>
-            <div class="star2">
-              <i class="fa-solid fa-star"></i>
-            </div>
+        <div class="portfolio" id="cntc">
+          <h2>CONTACT ME</h2>
+          <div class="star2">
+            <i class="fa-solid fa-star"></i>
           </div>
-          <form action="">
-            <div class="fname">
-                <label for="name">Full Name</label><br>
-                <input type="text" id="name" class="name" required placeholder="Full Name">
-            </div>
-            <div class="femail">
-                <label for="mail">Email</label><br>
-                <input type="email" id="mail" class="email" required placeholder="Email">
-            </div>
-            <div class="fhone">
-                <label for="num">Phone Number</label><br>
-                <input type="number" id="num" class="phone" required placeholder="Phone Number">
-            </div>
-            <div class="fmessage">
-                <label for="txt">Mesagge</label><br>
-                <textarea name="" id="txt" class="text1" cols="95" rows="30" placeholder="Input Text"></textarea>
-            </div>
-          </form>
+        </div>
+        <form action="">
+          <div class="fname">
+            <label for="name">Full Name</label><br />
+            <input
+              type="text"
+              id="name"
+              class="name"
+              required
+              placeholder="Full Name"
+            />
+          </div>
+          <div class="femail">
+            <label for="mail">Email</label><br />
+            <input
+              type="email"
+              id="mail"
+              class="email"
+              required
+              placeholder="Email"
+            />
+          </div>
+          <div class="fhone">
+            <label for="num">Phone Number</label><br />
+            <input
+              type="number"
+              id="num"
+              class="phone"
+              required
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="fmessage">
+            <label for="txt">Mesagge</label><br />
+            <textarea
+              name=""
+              id="txt"
+              class="text1"
+              cols="95"
+              rows="30"
+              placeholder="Input Text"
+            ></textarea>
+          </div>
+          <input type="submit" value="Send" class="send">
+        </form>
       </section>
     </main>
-    <footer class="sonluq">
+    <footer >
+      <div class="son_ust">
+        <div class="div_sol">
+          <h4>LOCATION</h4>
+        <span>2215 John Daniel Drive</span>
+        <span>Clark, MO 65243</span>
+        </div>
+        <div class="div_orta">
+          <h4>AROUND THE WEB</h4>
+          <div class="icn">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+        </div>
+        <div class="div_sag">
+          <h4>ABOUT FREELANCER</h4>
+          <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="">Start Bootstrap</a> .</p>
+        </div>
+      </div>
+      <div class="sonluq">
         <span>Copyright © Your Website 2023</span>
+      </div>
     </footer>
   </body>
 </html>
